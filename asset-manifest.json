@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/[%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%AA%85]/static/js/main.4eddd3c1.js",
-    "index.html": "/[%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%AA%85]/index.html",
-    "main.4eddd3c1.js.map": "/[%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%AA%85]/static/js/main.4eddd3c1.js.map"
+    "main.js": "/ifmoon/static/js/main.4eddd3c1.js",
+    "index.html": "/ifmoon/index.html",
+    "main.4eddd3c1.js.map": "/ifmoon/static/js/main.4eddd3c1.js.map"
   },
   "entrypoints": [
     "static/js/main.4eddd3c1.js"

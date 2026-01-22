@@ -7,16 +7,22 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+    "gsap": "^3.14.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.12.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.97.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +41,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://jaegandunghee.github.io/ifmoon/"
 }

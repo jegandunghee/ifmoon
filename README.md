@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# IFMOON Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+조건에 반응하는 화면을 설계하고,  
+낯선 기술을 학습해 구현으로 채워가는 퍼블리셔 포트폴리오입니다.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+IF는 코딩에서 조건이자 가능성을 의미합니다.  
+조건에 따라 화면과 경험은 달라집니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+이 포트폴리오는  
+조건(IF)에 반응하는 UI와 인터랙션을 중심으로,  
+로직을 쌓아 결과로 완성해 나가는 과정을 기록합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## About Me
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Error 404: Laziness not found.  
+제 작업에는 ‘적당히’라는 선택지가 없습니다.  
+구조와 로직을 먼저 설계하고,  
+보이지 않는 과정이 사용자 화면에서 자연스럽게 드러나도록 구현합니다.
 
-### `npm run build`
+낯선 기술도 반복과 학습을 통해 제 것으로 만들며,  
+문제가 발생하면 원인을 끝까지 추적해 해결합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Keywords
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+조건 기반 설계  
+사용자 상태와 상황에 따라 달라지는 화면 흐름을 설계합니다.
 
-### `npm run eject`
+로직 중심 사고  
+화면 이전에 구조와 데이터 흐름을 먼저 고민합니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+반복 학습  
+구현, 수정, 개선 과정을 통해 기술을 체득합니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+정확한 구현  
+예외 상황과 상태 변화를 고려해 UI가 안정적으로 동작하도록 만듭니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+Frontend  
+React (CRA), JavaScript (ES6+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Styling  
+SCSS, CSS Modules
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Routing  
+React Router DOM
 
-### Code Splitting
+Data / API  
+Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Interaction  
+GSAP
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+src/
+ ├─ components/  
+ ├─ pages/  
+ ├─ assets/  
+ ├─ styles/  
+ ├─ hooks/  
+ ├─ utils/  
+ └─ App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## What I Focus On
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+조건 분기와 상태 변화에 따른 UI 설계  
+유지보수를 고려한 컴포넌트 구조  
+불필요한 라이브러리 사용 지양  
+의미 있는 인터랙션만 선택적으로 적용
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Getting Started
 
-### `npm run build` fails to minify
+npm install  
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Notes
+
+이 포트폴리오는 결과보다  
+과정과 사고 방식을 보여주는 데 집중했습니다.  
+각 프로젝트에는 설계 의도와 구현 과정이 함께 정리되어 있습니다.
+
+---
+
+## Contact
+
+GitHub: (링크)  
+Email: (이메일)

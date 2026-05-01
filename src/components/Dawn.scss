@@ -1,0 +1,79 @@
+@use '../assets/scss/variables' as *;
+@use '../assets/scss/mixin' as *;
+
+.dawn-container {
+  min-height: 120vh;
+  width: 100%;
+  position: relative;
+  @include flex-center;
+  flex-direction: column;
+  gap: 3rem;
+
+  .title-area {
+    text-align: center;
+    color: $color-text-light;
+    z-index: 3;
+    
+    .section-title {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.8;
+    }
+  }
+
+  .code-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 600px;
+    padding: 3rem;
+    background: rgba(11, 17, 32, 0.6); // IDE 테마처럼 약간 어두운 글래스모피즘
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    @include mobile {
+      width: 90%;
+      padding: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .code-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .indent {
+      padding-left: 2rem;
+    }
+    
+    .indent-double {
+      padding-left: 4rem;
+    }
+
+    .p-code {
+      display: inline-block; // GSAP 변형을 위해 필요
+      will-change: transform;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    }
+
+    // 신택스 하이라이팅 색상 적용
+    .keyword { color: #c678dd; } // const, return 등 보라
+    .func { color: #61afef; }    // 함수명 파랑
+    .symbol { color: #56b6c2; }  // =, ; 기호
+    .bracket { color: #e5c07b; } // 괄호류 노랑
+    .var { color: #e06c75; }     // 변수명 빨강/오렌지
+    .tag { color: #e06c75; }     // HTML 태그
+  }
+}

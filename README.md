@@ -1,106 +1,51 @@
-# IFMOON Portfolio
+# 🌕 IfMoon : "The Interaction of Stars"
 
-조건에 반응하는 화면을 설계하고,  
-낯선 기술을 학습해 구현으로 채워가는 퍼블리셔 포트폴리오입니다.
-
----
-
-## Overview
-
-IF는 코딩에서 조건이자 가능성을 의미합니다.  
-조건에 따라 화면과 경험은 달라집니다.
-
-이 포트폴리오는  
-조건(IF)에 반응하는 UI와 인터랙션을 중심으로,  
-로직을 쌓아 결과로 완성해 나가는 과정을 기록합니다.
+**"코드 조각들이 모여 하나의 세련된 시스템으로 실체화되는 과정"**을 시각적으로 담아낸 프론트엔드 인터랙티브 포트폴리오 템플릿입니다. 단순한 텍스트 나열을 넘어, 방문자가 스크롤을 내릴 때마다 유기적으로 변하는 공간의 서사를 체험할 수 있도록 설계되었습니다.
 
 ---
 
-## About Me
+## ✨ 핵심 컨셉 (3 Phases)
 
-Error 404: Laziness not found.  
-제 작업에는 ‘적당히’라는 선택지가 없습니다.  
-구조와 로직을 먼저 설계하고,  
-보이지 않는 과정이 사용자 화면에서 자연스럽게 드러나도록 구현합니다.
+1. **Midnight (자정) - 무질서와 자유**
+   - 어두운 심연 속에서 `const`, `useRef`, `gsap.to()` 등 84개의 코드 파티클이 각기 다른 깊이감으로 부유합니다.
+   - 마우스를 이리저리 움직여보세요. 깊이에 따라 반응하는 고도화된 입체 패럴랙스 인터랙션을 경험할 수 있습니다.
 
-낯선 기술도 반복과 학습을 통해 제 것으로 만들며,  
-문제가 발생하면 원인을 끝까지 추적해 해결합니다.
+2. **Dawn (새벽) - 로직의 결합**
+   - 배경이 새벽빛으로 물들며, 스크롤 진입 시 공중에 흩어졌던 파티클들이 중앙으로 쏟아지며 실제 동작하는 프로젝트 소스코드 블록으로 퍼즐처럼 딱 맞게 조립됩니다.
+   - `ScrollTrigger`의 scrub 옵션을 활용하여 사용자의 스크롤 속도에 완벽히 동기화된 모핑 효과를 구현했습니다.
 
----
-
-## Keywords
-
-조건 기반 설계  
-사용자 상태와 상황에 따라 달라지는 화면 흐름을 설계합니다.
-
-로직 중심 사고  
-화면 이전에 구조와 데이터 흐름을 먼저 고민합니다.
-
-반복 학습  
-구현, 수정, 개선 과정을 통해 기술을 체득합니다.
-
-정확한 구현  
-예외 상황과 상태 변화를 고려해 UI가 안정적으로 동작하도록 만듭니다.
+3. **Morning (아침) - 완성된 인터페이스**
+   - 완전한 아침이 밝아오면, 이전에 조립되었던 소스코드 블록이 3개의 아름다운 Glassmorphism UI 컴포넌트로 치환되어 화면 위로 통통 튀어 오릅니다.
+   - 카드 위에 마우스를 올렸을 때 젤리처럼 쫀득하게 반응하는 `elastic` 모션 스프링 로직이 적용되어, 최상의 사용자 경험(UX) 마이크로 인터랙션을 제공합니다.
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-Frontend  
-React (CRA), JavaScript (ES6+)
-
-Styling  
-SCSS, CSS Modules
-
-Routing  
-React Router DOM
-
-Data / API  
-Axios
-
-Interaction  
-GSAP
+- **Framework**: `React.js` (CRA)
+- **Styling**: `SCSS` (Variables, Mixin, Media Queries, Glassmorphism)
+- **Animation**: `GSAP` & `ScrollTrigger Plugin`
+- **Typography**: Paperlogy
 
 ---
 
-## Project Structure
+## 🚀 How to Run
 
-src/
- ├─ components/  
- ├─ pages/  
- ├─ assets/  
- ├─ styles/  
- ├─ hooks/  
- ├─ utils/  
- └─ App.js
-
----
-
-## What I Focus On
-
-조건 분기와 상태 변화에 따른 UI 설계  
-유지보수를 고려한 컴포넌트 구조  
-불필요한 라이브러리 사용 지양  
-의미 있는 인터랙션만 선택적으로 적용
+1. 로컬 환경에 프로젝트 클론 또는 다운로드
+2. 디펜던시 설치
+   ```bash
+   npm install
+   ```
+3. 로컬 서버 실행
+   ```bash
+   npm start
+   ```
+4. 브라우저에서 `http://localhost:3000` 접속 후, 천천히 마우스를 움직이고 하단으로 스크롤을 내리며 감상해 보세요.
 
 ---
 
-## Getting Started
+## 🎨 사용 방법 (Customizing)
 
-npm install  
-npm start
-
----
-
-## Notes
-
-이 포트폴리오는 결과보다  
-과정과 사고 방식을 보여주는 데 집중했습니다.  
-각 프로젝트에는 설계 의도와 구현 과정이 함께 정리되어 있습니다.
-
----
-
-## Contact
-
-GitHub: (링크)  
-Email: (이메일)
+이 프로젝트는 나만의 포트폴리오로 재탄생할 수 있도록 설계되었습니다. 
+- `App.js`, `Midnight.js`, `Morning.scss` 등 모든 주요 파일에는 핵심 로직을 설명하는 간결한 **주석**이 달려 있습니다. 
+- `Morning.js` 안의 3개의 카드를 수정해 본인의 Github 링크, 기술 스택, 실제 연락받을 메일 주소(`jeahee3161@gmail.com`) 등을 연동하면 완벽한 나만의 1페이지 포트폴리오가 완성됩니다!

@@ -1,0 +1,41 @@
+/* 
+  사용자(USER)가 직접 폰트 파일을 추가할 경로: src/assets/fonts/
+  (assets 폴더 안에 fonts 폴더를 만들고 폰트 파일을 넣어주세요)
+*/
+
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Paperlogy-3Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Paperlogy-4Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Paperlogy-6SemiBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Paperlogy';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/Paperlogy-8ExtraBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+// 폰트를 적용하는 mixin
+@mixin font-face {
+  font-family: 'Paperlogy', sans-serif;
+}
